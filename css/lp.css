@@ -1,0 +1,73 @@
+header div.hero {
+  background-image: url("../imgs/controles1.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+  
+  text-align:center;
+
+}
+
+header div.hero div{
+   min-height: 50vh;
+}
+.title{
+  font-family: 'Roboto';
+  font-size:2rem;
+}
+
+.card img{
+  width:100%;
+}
+
+form {
+  font-size:1rem !important;
+}
+
+.paralax{
+  background-image: url(../imgs/bgps51.jpg);
+  background-attachment: fixed;
+  background-repeat: no repeat;
+  background-size: cover;
+  background-position: bottom center;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.paralax h2{
+  font-size: 4rem;
+  color: blue;
+}
+@media (min-width: 768px) {
+        header div.hero {
+            background-image: url("../imgs/controles1.jpg");
+            min-height: 80vh;
+        }
+
+
+        form{
+          font-size:2rem !important;
+        }
+        .title{
+          font-size:6rem;
+        
+          background-color: rgba(255,255,255,0.3);
+          padding:0.7em;
+          width:100%;
+          
+        }
+      }
+
+@media (min-width: 992px) {
+        header div.hero {
+            background-image: url("../imgs/controles1.jpg");
+        }
+         .title{
+          max-width:1024px;
+          margin:1em auto;
+          
+        }
+      }
